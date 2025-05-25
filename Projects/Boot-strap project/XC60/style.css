@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+
+}
+
+img,
+video {
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    background: url(./images/background/7d49b53f35a91fd08931b8dfa9ae7ac9.png);
+    width: 100vw;
+    min-height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.xc60 {
+
+    font-size: 15vh;
+
+
+}
+
+.ht {
+    padding-bottom: 30vh;
+    font-weight: 30px;
+    font-size: larger;
+
+}
+
+.fa-bars {
+
+    width: 5vw;
+    font-size: 5vh;
+
+
+
+}
+
+.im {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 30% 100%);
+}
+
+.vm {
+    background-image: linear-gradient(rgb(52, 48, 48) 30%, #748284);
+    background-attachment: fixed;
+    width: 100vw;
+    color: white;
+    height: 80vh;
+    text-align: center;
+}
+
+.hw {
+
+    margin: 2vh;
+    font-size: 5vh;
+}
+
+.r {
+    height: 50vh;
+    width: 100vw;
+
+
+}
+
+.if {
+    width: 100%;
+    /* height: 20vh; */
+}
+
+.r {
+    padding: 5vh 10vw;
+}
+
+.wp {
+    height: 90vh;
+    background-image: black;
+    width: 90vh;
+}
+
+button {
+    color: white;
+    background-color: transparent;
+    width: -5vw !important;
+    display: block;
+    position: relative;
+    left: 40%;
+    margin: auto;
+    margin-bottom: 10vh;
+}
+
+.hero_section {
+    bottom: 6vh;
+}
+
+.overview {
+    height: 80vh;
+    width: 100vw;
+    background-color: #ffff;
+}
+
+.but {
+    width: 100px;
+    height: 50px;
+    /* margin-left: 1vw; */
+    border-radius: 50px;
+
+
+
+    /* text-align: start; */
+    color: black;
+}
+
+.but-wrap {
+    width: 100%;
+    text-align: start;
+}
+
+.grid {
+    padding-top: 10vh;
+    height: 100vh;
+}
+
+.bgDiv {
+    /* height: 100%; */
+    background-color: #7E989B;
+    background-image: url('./images/illustrations/640c0df2-6062-4a53-a091-acd26a456f43.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap:10px
+
+    /* width: 100%; */
+
+    /* opacity: 0.5; */
+    /* background-color: #7E989B; */
+
+}
+

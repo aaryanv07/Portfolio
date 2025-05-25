@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: "Poppins", serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+img,
+video {
+    object-fit: cover;
+
+}
+
+header {
+    background: url(https://wallpaperaccess.com/full/2465431.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+
+}
+.hmh{
+    background: url(./References/healthy-bg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+}
+.neo{
+    font-weight:bolder;
+    font-size: 5vw;
+}
+.hmh-btn{
+    margin: 3vh 0 10vh 3vw
+}
+.train{
+    font-weight:bolder;
+    font-size: 5vw;
+    line-height: 1.5;
+}
+.c_button:hover{
+    background-color: white;
+    color: black;
+}
+.whyus{
+    background: url(./References/us-bg.jpg);
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+
+}
+.tx{
+    text-decoration: underline;
+   text-decoration-color: red;
+    /* background-color: red; */
+}
+
+.navbar-brand {
+    font-weight: bolder;
+    
+    
+}
+.pill{
+    width: 150px;
+    /* height: 4vh; */
+    margin-right:5vw;
+    text-align: center;
+    /* width:25vw; */
+    display: block;
+    padding: 10px 15px 10px 20px;
+    margin: auto;
+}
+.ogt{
+    background: url(./References/us-bg.jpg);
+    min-height:70vh ;
+    color: white;
+    text-align: center;
+    padding: 10vh;
+}
+.pills{
+    text-align: center;
+}
+.fo{
+    margin: 1vh 0;
+    width:90%;
+    color: black;
+}
+.carousel-indicators button {
+    border-radius: 50%;
+    /* font-size: larger; */
+    height:2vh;
+    
+    width:2vw;
+}
+.fo1{
+    padding-top: 1vh;
+}
+.contact_us{
+    background: url(./References/us-bg.jpg);
+    background-attachment: fixed;
+}
+.f_c{
+    text-align: center;
+    background: url(./References/us-bg.jpg);
+    color: white;
+    background-attachment: fixed;
+}

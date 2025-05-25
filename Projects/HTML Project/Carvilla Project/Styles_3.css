@@ -1,0 +1,746 @@
+@media (min-width: 992px) {
+
+    header::before {
+        content: "";
+
+        background: rgba(0, 0, 0, 0.6)url(./References/VJszv8.webp);
+        position: absolute;
+        top: -40px;
+        left: 0;
+        width: 100%;
+        height: 1000px;
+        z-index: -1;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-blend-mode: darken;
+        background-size: cover;
+
+
+    }
+
+    .main_div,
+    .fd {
+        display: flex;
+        align-items: start;
+    }
+
+    .price {
+        padding: 2vh 0;
+    }
+
+
+
+    .car_flex .info {
+        border: 1px solid gray;
+        width: 22vw;
+
+    }
+
+    .car_info h1 {
+        margin-top: 2vh;
+    }
+
+    .car_info {
+        /* border: 0.5px solid gray; */
+        width: 15vw;
+        /* display: flex; */
+        /* flex-wrap: wrap; */
+        height: 60vh;
+        /* gap: 0 4vw; */
+        margin: 0 4vw 4vh 0;
+    }
+
+    .car3 {
+        padding: 1vh;
+        padding-right: vw;
+        height: 25vh;
+        width: 22vw;
+        object-fit: contain;
+        border: 1px solid gray;
+    }
+
+    .info {
+        display: flex;
+        justify-content: space-around;
+        border: 1 px solid gray;
+        padding: 1vh;
+    }
+
+    .car_flex .info {
+        display: flex;
+        /* align-items: center; */
+        justify-content: space-around;
+        padding-right: 5.5vw;
+    }
+
+
+
+    .navlogos {
+        /* border: 10px solid black; */
+        /* background-color: transparent; */
+        display: flex;
+        justify-content: space-around;
+        overflow: hidden;
+        position: fixed;
+        width: 100vw;
+        top: 0;
+        left: 0;
+        z-index: 10;
+
+        height: 09vh;
+        /* position: relative; */
+
+    }
+
+    .nav-logo {
+        display: none;
+    }
+
+    .navbar ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+    }
+
+    .navbar ul li {
+        padding: 2vh 2vw;
+        color: #ffff;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .logo {
+        color: #ffff;
+        padding: 02vh;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-size: 25px;
+
+    }
+
+    .hero_section {
+        display: flex;
+        flex-direction: column;
+        /* padding: 50px 20px; */
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        overflow: hidden;
+        /* width: 100%; */
+        padding: 15 10vw 05vh 10vw;
+
+
+        position: relative;
+        margin-top: 30vh;
+    }
+
+    .herosection .title {
+        font-size: 2vh;
+    }
+
+    .hero_section .title {
+        text-transform: uppercase;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        letter-spacing: 1.5px;
+        color: white;
+        font-weight: 50px;
+        font-size: 08vh;
+        text-shadow: 2px;
+        padding-top: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 50px;
+        /* text-align: justify; */
+
+
+
+
+    }
+
+    .content {
+        color: white;
+        font-weight: bolder;
+        font-size: 1.5vw;
+        ;
+        /* letter-spacing: 0.2vw; */
+        /* margin-left: ; */
+        padding-bottom: 06vh;
+        width: vw;
+        padding-left: 25vw;
+        padding-right: 25vw;
+    }
+
+    .hbt:hover {
+        background-color: darkblue;
+    }
+
+    .content2 {
+        color: white;
+        font-weight: bolder;
+        font-size: 1.2vw;
+        /* letter-spacing: 1px; */
+        /* margin-left: ; */
+        padding-bottom: 04vh;
+        width: 7vw;
+        /* padding-left: 25vw;
+        padding-right: 25vw; */
+
+    }
+
+    .hero_section button {
+
+        /* width: 100px; */
+        padding: 5px 10px;
+        background-color: #4E4FFA;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-bottom: 10vh;
+        height: 07vh;
+        width: 20vw;
+
+    }
+
+    .hero_section button a {
+        color: #ffffff;
+        font-size: 1.5vw;
+    }
+
+    .dropdown {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        overflow: hidden;
+        /* position: relative; */
+        margin-bottom: 10vh;
+        width: 100vw;
+        padding: 0 0 5vh 0;
+    }
+
+    #ab {
+        padding-top: 1vh;
+    }
+
+    .input_form {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        /* flex-direction: column; */
+        background-color: #ffffff;
+
+
+        /* height: 600px; */
+        margin-bottom: 2%;
+    }
+
+    .form_1 {
+        width: 20vw;
+        margin-top: 5px;
+        margin-right: 2vw;
+        flex-direction: column;
+        padding: 2vh 2vh 5vh 0;
+        display: flex;
+        justify-content: left;
+        align-items: space-between;
+        /* margin: 0 auto; */
+    }
+
+    .form2 {
+        display: flex;
+        background-color: white;
+        border-radius: 5px;
+        padding: 5px 0px 5px 0px;
+        box-shadow: 2px 5px 10px black;
+        width: 90%;
+    }
+
+    .form2 .button_2 {
+        /* margin:3vw ; */
+        align-self: center;
+        position: relative;
+        left: -4vw;
+        justify-self: center;
+    }
+
+    .form_1 p {
+        color: #575C68;
+        padding: 0;
+        padding-top: 20px;
+        position: relative;
+        bottom: -2vh;
+    }
+
+    .form_1 select {
+        color: #8D94A1;
+
+        padding: 5px 20px 5px 20px;
+        /* margin-right: 50px; */
+        text-align: start;
+        margin-top: 30px;
+        background-color: #F8F8F8;
+        border-radius: 3px;
+
+    }
+
+    .button {
+        width: 100px;
+        padding: 10px;
+        background-color: #4E4FFA;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .button_2 {
+        margin-top: 20px;
+        color: #ffffff;
+        margin-bottom: 20px;
+        height: 08vh;
+        width: 15vw;
+    }
+
+    .button_2 a {
+        color: #ffffff;
+    }
+
+    .button_2:hover {
+        background-color: darkblue;
+    }
+
+    .facts {
+
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: left; */
+        align-content: center;
+        /* flex-direction: column; */
+        /* align-items: center; */
+        width: calc(90%-20vw);
+        margin-left: 3vw;
+        margin-right: 2vw;
+        height: 100vh;
+
+
+
+    }
+
+    .cnt .but:hover {
+        background-color: darkblue;
+    }
+
+    .facts_1 {
+        padding: 5%;
+        width: 29vw;
+        height: 60vh;
+
+
+
+        flex-wrap: wrap;
+        border: 1px solid grey;
+        margin: 10px;
+        /* height: 250px; */
+        background-color: #ffffff;
+        border-radius: 4px;
+        text-align: center;
+    }
+
+    .facts_1 image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fa-note-sticky,
+    .fa-gear,
+    .fa-car {
+        padding-bottom: 4vh;
+        margin-bottom: 3vh;
+        color: #50616C;
+        border: none;
+        /* height: 50px; */
+        font-size: 50px;
+    }
+
+    .facts_1 h3 {
+        padding-bottom: 4%;
+        text-transform: capitalize;
+        color: #444A57;
+        font-size: 3vh;
+    }
+
+    .cnt .car {
+        width: 45vw;
+        height: 45vh;
+        object-fit: contain;
+        padding-bottom: 4vh;
+
+    }
+
+    .facts_1 p {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 3vh;
+        padding: 1vh;
+    }
+
+    .underscores {
+        color: #4E4FFA;
+        width: 50px;
+    }
+
+    .facts_1 {
+        transition: 0.5s all ease;
+        border: 1px solid;
+    }
+
+    .facts_1:hover {
+        background-color: #4E4FFA;
+        color: white;
+    }
+
+    .facts_1:hover h3,
+    .facts_1:hover i,
+    .facts_1:hover .underscores {
+        color: white;
+    }
+
+    .featured_cars {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 0 2vw 10vh 2vh;
+        margin: 0 2vw 10vh 2vw;
+    }
+
+    .car_flex {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15vh 4vw
+    }
+
+    .testimonials {
+        display: flex;
+        flex-direction: column;
+        /* text-align: center; */
+        align-items: center;
+        justify-items: center;
+        background-color: #F8F9FB;
+        height: vh;
+
+        padding: 2vh 3vw 3vh 3vw;
+    }
+
+    .car_info .description {
+        margin-bottom: 5vh;
+        font-size: 1.5vw;
+        letter-spacing: 1.5;
+    }
+
+    .testimonials .heading h1 {
+        font-size: 03vw;
+    }
+
+    .testimonials .heading {
+        padding-bottom: 5vh;
+        font-size: 05vw;
+
+    }
+
+    figure {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        border: 1px solid gray;
+        margin: 25px 15px;
+    }
+
+
+    .test .fig {
+        padding: 10px;
+        color: #5E6778;
+        padding: 5vh;
+        width: 20vw;
+        /* font-size: 2vh; */
+        /* height: 50vh */
+    }
+
+    .fig #fig_cap {
+        font-size: 01vw;
+    }
+
+    .fig:hover {
+        background-color: #4E4FFA;
+        color: #ffff;
+    }
+
+    .fig:hover .fig,
+    .fig:hover #name,
+    fig:hover .underscores {
+        background-color: #4E4FFA;
+        color: #ffff;
+
+
+    }
+
+    #name {
+        font-weight: bold;
+        font-size: 2vw;
+    }
+
+    #fig_cap {
+        padding: 20px 10px;
+        font-size: 2vw;
+    }
+
+    .cnt {
+        display: flex;
+        margin: 3vh 3vw 3vh 3vh;
+    }
+
+    .latest_cars {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0vh 03vh 0vh;
+        justify-content: center;
+        align-items: center;
+        background-color: #F8F9FB;
+    }
+
+    .labore {
+        height: 20vh;
+        width: 10vw;
+        object-fit: contain;
+        padding-top: 40px;
+
+    }
+
+    .head2 {
+        padding-bottom: 5vh;
+    }
+
+    .head_s h3 {
+        text-transform: capitalize;
+        padding-bottom: 2vh;
+        font-size: 3vh;
+        color: #444A57;
+    }
+
+    .head_s h1 {
+        font-size: 3vw;
+        color: #444A57;
+    }
+
+    .head_s {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 3vh;
+
+    }
+
+    #f {
+        display: flex;
+        flex-direction: row;
+        column-gap: 05vw;
+        border: none;
+        padding: 0%;
+        margin: 0%;
+        justify-content: center;
+        align-items: center;
+        padding: 0 8vw;
+    }
+
+    .companyl {
+        margin-bottom: 20vh;
+    }
+
+    .test {
+        display: flex;
+        /* margin:3vh 2vw  */
+    }
+
+    .fig img {
+        padding: 3vh 0 1vh 0;
+    }
+
+    .foot {
+        background-color: #2A2D54;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        padding: 10px 20px;
+
+
+
+    }
+
+    #contact {
+        color: #D1D7E9;
+        font-size: small;
+        padding: 10px 0;
+    }
+
+    #heading1 {
+        color: #ffff;
+        text-transform: uppercase;
+        /* margin-right: 46vw; */
+        padding-bottom: 1vh;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        /* top: -2vh */
+    }
+
+    #ab {
+        color: #D1D7E9;
+    }
+
+    .block {
+        display: flex;
+        justify-items: space-betweeen;
+    }
+
+    #ab li {
+        padding: 5px 0;
+        font-size: small;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .brands h4 {
+        color: white;
+        padding: 0 0 20px 0;
+    }
+
+    .brands ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .brands ul li {
+        width: 20vw;
+        color: #CFD0E3;
+        font-size: small;
+        padding: 5px 0;
+        transition: all 0.5s ease-in-out;
+
+    }
+
+    #ab li:hover {
+        transform: translateX(20px);
+
+    }
+
+    .brands ul li:hover {
+        transform: translateX(20px);
+    }
+
+    .news h3 {
+        color: white;
+        padding: 10px 0;
+    }
+
+    .news h4 {
+        color: #CFD0E3;
+        padding: 20px 0;
+        font-size: smaller;
+    }
+
+    .news {
+
+        height: 4vh;
+        margin-bottom: 3vh;
+        margin-right: vw;
+        /* width: 10vw; */
+    }
+
+    #ip {
+        background-color: #26294D;
+        padding-left: 2vw;
+        color: #A8A9A7;
+        font-size: smaller;
+        box-shadow: 2px 2px 2px black;
+        height: 3vh;
+        width: 35vw;
+        border: none;
+    }
+
+    .fa-arrow-right {
+        border: none;
+        color: #666C81;
+        position: relative;
+        right: 8vw;
+        top: 0.1vh;
+        font-size: 15px;
+    }
+
+    #ip:hover {
+        box-shadow: 5px 5px 5px black;
+
+    }
+
+    .i {
+        padding: 5px 5px;
+        color: #A8A9A7;
+    }
+
+    #hr {
+        background-color: #A8A9BF;
+    }
+
+    #cpy {
+        color: #A8A9A7;
+        text-transform: capitalize;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: small;
+
+    }
+
+
+
+    .logo2 {
+        padding: 0;
+    }
+
+    .align h1 {
+        font-size: 2.5vw;
+        margin-bottom: 2vh;
+    }
+
+    .d {
+        width: 15vw;
+        margin: 0 2vw;
+        position: relative;
+        top: 4vh
+    }
+
+    .align {
+        margin: 0 2vw 0 2vw;
+        width: 40vw;
+    }
+
+    .align .description {
+        color: #8B93A1;
+
+    }
+
+    .align .but {
+        padding: 5px 0 0 30px;
+        padding: 5px 10px;
+        background-color: #4E4FFA;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-bottom: 26px;
+    }
+
+    .align .but a {
+        color: white;
+    }
+
+    .bg-black {
+        background-color: black;
+        transition: 0.1s all ease;
+    }
+}
