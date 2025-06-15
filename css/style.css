@@ -362,7 +362,7 @@ header {
     width: 350px;
     background-image: url(../images/Illustration/First.PNG);
     position: fixed;
-    left: 60%;
+    left: 45%;
     top: 30%;
     border-radius: 10px;
     background-position: center;
@@ -378,7 +378,7 @@ header {
     width: 350px;
     background-image: url(../images/Illustration/Second.PNG);
     position: fixed;
-    left: 60%;
+    left: 45%;
     top: 30%;
     border-radius: 10px;
     background-position: center;
@@ -513,7 +513,7 @@ h1>span.edu {
     width: 350px;
     background-image: url(../images/Illustration/Third.PNG);
     position: fixed;
-    left: 60%;
+    left: 45%;
     top: 30%;
     border-radius: 10px;
     background-position: center;

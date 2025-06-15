@@ -1,4 +1,12 @@
 document.addEventListener("DOMContentLoaded", function () {
+    Shery.hoverWithMediaCircle(".hvr",{videos: ["https://cuberto.com/assets/featured/header-sm.mp4", "https://cuberto.com/assets/showreel/short-sm.mp4", "https://cuberto.com/assets/home/hero/header.mp4"]});
+    Shery.mouseFollower();
+    Shery.makeMagnet(".magnet");
+    Shery.imageEffect(".images", {
+  style: 6,
+  debug: true,
+  gooey: true,
+});
     // const scroll = new LocomotiveScroll({
     //     el: document.querySelector('.main'),
     //     smooth: true

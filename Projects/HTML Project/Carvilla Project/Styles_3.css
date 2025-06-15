@@ -1,4 +1,4 @@
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
 
     header::before {
         content: "";
@@ -18,6 +18,13 @@
 
     }
 
+    .fflex {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .flexwrapper {}
+
     .main_div,
     .fd {
         display: flex;
@@ -28,6 +35,9 @@
         padding: 2vh 0;
     }
 
+    .fflex {
+        all: unset;
+    }
 
 
     .car_flex .info {
@@ -85,7 +95,7 @@
         width: 100vw;
         top: 0;
         left: 0;
-        z-index: 10;
+        z-index: 100;
 
         height: 09vh;
         /* position: relative; */
@@ -222,6 +232,37 @@
         padding-top: 1vh;
     }
 
+    .wrapper {
+        display: flex;
+        /* flex-wrap: wrap; */
+        width: 100%;
+        justify-content: space-between;
+
+    }
+
+    .footinfo p {
+        opacity: 0.8;
+
+        /* width: 200% !important; */
+    }
+
+
+    .flex2 {
+        display: flex;
+        /* flex-wrap: wrap; */
+        /* width: 100%; */
+    }
+
+
+    .footinfo p {
+        color: white;
+        padding-top: 2vh;
+    }
+
+    footer {
+        background-color: #2A2D54;
+    }
+
     .input_form {
         display: flex;
         flex-wrap: wrap;
@@ -233,6 +274,13 @@
 
         /* height: 600px; */
         margin-bottom: 2%;
+    }
+
+    .flexwrapper {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+
     }
 
     .form_1 {
@@ -332,7 +380,7 @@
     .facts_1 {
         padding: 5%;
         width: 29vw;
-        height: 60vh;
+        
 
 
 
@@ -708,12 +756,12 @@
         margin-bottom: 2vh;
     }
 
-    .d {
+    /* .d {
         width: 15vw;
         margin: 0 2vw;
         position: relative;
         top: 4vh
-    }
+    } */
 
     .align {
         margin: 0 2vw 0 2vw;
@@ -738,7 +786,9 @@
     .align .but a {
         color: white;
     }
-
+.a{
+    width: 20% !important;
+}
     .bg-black {
         background-color: black;
         transition: 0.1s all ease;

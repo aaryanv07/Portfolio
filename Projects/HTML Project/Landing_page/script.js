@@ -1,0 +1,1 @@
+Shery.imageEffect("#main #back", {style: 2, debug: true})

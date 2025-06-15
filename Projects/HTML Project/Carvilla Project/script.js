@@ -6,18 +6,53 @@ document.addEventListener("DOMContentLoaded", function () {
     // else if (scrollY <= 0) {
     //     nav.classList.remove("bg-black");}
 
-    const html = document.querySelector("html");
-    const body = document.querySelector("body");
-    const nav = document.querySelector("nav");
+
+
+
+    const mq = window.matchMedia("(min-width: 1200px)");
+    const mq2 = window.matchMedia("(min-width:1200px)");
+    const mq3 = window.matchMedia("(min-width: 1200px)");
     const bar = document.querySelector(".navlogos");
 
-    let scrolled = () => {
-        let dec = scrollY / (body.scrollHeight - innerHeight);
-        return Math.floor(dec * 100);
+    function handleVp() {
+        mq2.matches ? bar.style.backgroundColor = "transparent" : bar.style.backgroundColor = "black";
     }
+    function handleScroll() {
+        if (mq.matches) {
+            if (window.scrollY > 1) {
+                bar.classList.add("tran");
+                bar.style.backgroundColor = "black";
+                bar.style.color = "white";
+                bar.style.zIndex = "1000";
+                bar.style.padding = "1vh";
+            }
+            else if (window.scrollY <= 1) {
+                bar.style.backgroundColor = "transparent";
+                bar.style.color = "black";
+                bar.style.zIndex = "1000";
+                bar.style.padding = "0vh";
+            }
 
-    addEventListener("scroll", () => {
-        bar.style.setProperty("background", scrolled() > 50 ? "black" : "transparent");
-    })
-
+        }
+        // else{
+        //     if (window.scrollY > 1) {
+        //         bar.classList.add("tran");
+        //         bar.style.backgroundColor = "black";
+        //         bar.style.color = "white";
+        //         bar.style.zIndex = "1000";
+        //         bar.style.padding = "1vh";
+        //     }
+        //     else if (window.scrollY <= 1) {
+        //         bar.style.backgroundColor = "transparent";
+        //         bar.style.color = "black";
+        //         bar.style.zIndex = "1000";
+        //         bar.style.padding = "0vh";
+        //     }
+        // }
+    }
+    handleVp();
+    handleScroll();
+    mq2.addEventListener("change", handleVp);
+    mq.addEventListener("change", handleScroll);
+    window.addEventListener("scroll", handleScroll);
 })

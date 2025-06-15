@@ -421,7 +421,7 @@ video {
 }
 
 #footer {
-    position: fixed;
+    /* position: fixed; */
     height: 100vh !important;
     width: 100%;
     color: white;

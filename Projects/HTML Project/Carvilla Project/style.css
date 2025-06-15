@@ -5,7 +5,7 @@
     padding: 0;
     font-size: 16px;
     box-sizing: border-box;
-
+    /* border: 2px solid red; */
 }
 
 
@@ -27,8 +27,67 @@ html {
     overflow-x: hidden;
 }
 
+.m-0 {
+    margin: 0;
+    padding: 0;
 
-@media (max-width:767px) {
+}
+
+.around {
+    justify-content: space-around;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.tran {
+    transition: all 0.5s ease-in-out;
+}
+
+.relative {
+    position: relative;
+}
+
+.content2 {
+    color: #ffff;
+    letter-spacing: 0.5vw;
+    font-size: small;
+
+    line-height: 3vh;
+    margin-bottom: 3vh
+}
+
+footer {
+    color: #2A2D54;
+    width: 100%;
+}
+
+
+
+.flex2 .fa-brands {
+    color: white;
+    border: none;
+    background: transparent;
+
+}
+
+.flexwrapper {
+    width: 100%;
+}
+
+input#ip {
+    background-color: #26294D;
+
+    color: #A8A9A7;
+    font-size: smaller;
+    width: 80% !important;
+    box-shadow: 2px 2px 2px 2px black;
+    width: 80vw;
+    border: none;
+}
+
+@media (max-width:768px) {
     header::before {
         content: "";
 
@@ -48,8 +107,52 @@ html {
     }
 
 
+
+    .flexwrapper {
+        display: block;
+    }
+
+    .div2 {
+        display: block !important;
+
+    }
+
+    .fflex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footinfo p {
+        opacity: 0.8;
+
+        /* width: 200% !important; */
+    }
+
+
+    .footinfo {
+        display: block;
+    }
+
+    .footinfo p {
+        color: white;
+        padding-top: 2vh;
+    }
+
     .navbar li {
         display: none;
+    }
+
+
+
+    .flex2 {
+        display: flex !important;
+        flex-wrap: wrap;
+    }
+
+    .news h4 {
+        font-size: 12px !important;
+        line-height: 20px;
+        letter-spacing: 1.5px;
     }
 
     .navlogos {
@@ -60,7 +163,7 @@ html {
         overflow: hidden;
         position: fixed;
         top: 0;
-        z-index: 10;
+        z-index: 100;
         width: 100%;
         border-bottom: 5px;
         /* position: relative; */
@@ -137,14 +240,16 @@ html {
 
     }
 
-    .fa-arrow-right {
+    .relative .fa-arrow-right {
         border: none;
         color: #666C81;
-        position: relative;
-        left: 70vw;
+        position: absolute;
+        left: 60%;
         right: 8vw;
-        top: -2.8vh;
-        /* padding: 1vh; */
+        bottom: 15vh !important;
+        top: vh;
+        z-index: 1000 !important;
+        padding: 1vh;
         font-size: 2vh;
     }
 
@@ -234,29 +339,32 @@ html {
 
     .facts {
 
-        /* display: flex; */
+        display: flex;
         justify-content: center;
         align-content: center;
-        flex-direction: column;
+        /* flex-direction: column !important; */
         align-items: center;
-        width: calc(90% -20px);
+        width: 100%;
 
-        /* height: 100vh; */
+
         margin-bottom: 50px;
 
     }
 
+
+
     .facts_1 {
         padding: 5%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        display: block;
+        /* flex-direction: column; */
+        /* align-items: center; */
+        /* justify-content: center; */
         border: 1px solid grey;
         margin: 10px;
         /* height: 250px; */
         background-color: #ffffff;
         text-align: center;
+        width: calc(100% - 20px) !important;
     }
 
     .facts_1 image {
@@ -427,6 +535,7 @@ html {
     .facts_1:hover {
         background-color: #4E4FFA;
         color: white;
+        transition: all 0.5s ease-in-out;
     }
 
     .hover:hover {
@@ -574,15 +683,21 @@ html {
     .news h4 {
         color: #D1D7E9;
         padding: 20px 0;
+        opacity: 0.8;
         font-size: smaller;
     }
 
-    #ip {
+    .news {
+        margin-bottom: 5vh !important;
+    }
+
+    input#ip {
         background-color: #26294D;
 
         color: #A8A9A7;
         font-size: smaller;
-        box-shadow: 2px 2px 2px black;
+        width: 80% !important;
+        box-shadow: 2px 2px 2px 2px black;
         width: 80vw;
         border: none;
     }
@@ -593,7 +708,7 @@ html {
     }
 
     .i {
-        padding: 5px 5px;
+        padding: 5px 5px 8px black;
         color: #A8A9A7;
     }
 
@@ -609,13 +724,12 @@ html {
 
     }
 
-    .brands {
-        margin-bottom: 20px;
-        flex: 0 1 auto;
-        min-width: 0;
-        overflow: hidden;
-        box-sizing: border-box;
+    .news {
+        color: #ffff;
+        margin-bottom: 5vh;
+        width: 50% !important;
     }
+
 
     .logo2 {
         padding: 0;
@@ -640,22 +754,22 @@ html {
 
     .d {
         width: 24%;
+
     }
 
     .flex {
         width: 100%;
         display: flex;
+        /* flex-wrap: wrap; */
     }
 
-    .a {
-        width: 100%;
-    }
+
 
     .fd {
-        display: flex; 
-        justify-content: space-between; 
-        width: 100%;     
-        padding: 0 20px;     
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0 20px;
     }
 
     footer {
@@ -663,12 +777,37 @@ html {
 
     }
 
-    .fd .a {
-        /* display: flex;
-        justify-content: center;
+    .fd {
         width: 100%;
-        flex-direction: column; */
-        
-
     }
+
+    .fd .a {
+        width: 100%;
+        display: block;
+        text-align: left;
+    }
+
+    footer {
+        width: 100vw;
+        height: auto;
+    }
+
+    .d1 {
+        width: 20%;
+    }
+
+    .a1 {
+        /* padding-bottom: 5vh; */
+    }
+
+    .brf {
+        gap: 10vw;
+    }
+
+    .inline-block {
+        display: inline-block;
+        width: 100%;
+    }
+
+
 }

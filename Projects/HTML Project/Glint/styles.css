@@ -22,6 +22,10 @@ body {
     background-color: #E6E6E6;
 }
 
+.semi-bold {
+    font-weight: 600;
+
+}
 
 .image-container {
     position: relative;
@@ -30,6 +34,20 @@ body {
 
     height: 400px;
     width: 400px;
+}
+
+.swiper-slide figure img{
+    border-radius: 50%;
+    height: 6vh;
+}
+
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #E6E6E6;
 }
 
 .overlay .a {
@@ -170,6 +188,10 @@ video {
 
 }
 
+.swiper-slide .logos {
+    background-color: #E6E6E6 !important;
+}
+
 .text-white {
     color: white;
 }
@@ -230,9 +252,11 @@ video {
     margin-left: 2.5rem;
 }
 
+.p-2 {
+    padding: 4vw;
+}
 
-
-.p {
+.pt-2 {
     padding-top: 5vh;
 }
 
@@ -369,7 +393,7 @@ header {
     background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url(./images/background/d9bdc84a-7cc3-48d9-87c5-7addaf4c7b12.jpg) no-repeat center center;
     height: 110vh;
 
-background-attachment: fixed;
+    background-attachment: fixed;
     background-size: cover;
     background-blend-mode: darken;
     color: white;
@@ -484,7 +508,7 @@ background-attachment: fixed;
         justify-content: center;
         align-items: center;
         gap: 5vh;
-        padding: 10vh 10vw;
+        padding: 70px 35px !important;
     }
 
     .clients {
@@ -493,7 +517,11 @@ background-attachment: fixed;
         background-color: #e6e6e697;
         display: flex;
         flex-direction: column;
+        /* height: 220vh !important; */
+        gap: 0 5vh;
+        justify-content: center;
     }
+
 
     .swiper-slide {
         text-align: center;
@@ -522,6 +550,15 @@ background-attachment: fixed;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .image-container {
+        margin: 0 auto !important;
+    }
+
+    .imgstyle {
+        background: linear-gradient(black 0%, black 25%, #fff 25%, #fff 90%);
+        padding-bottom: 2vh;
     }
 
 }

@@ -56,7 +56,7 @@
       <p class="text-uppercase fw-bold fs-s ps-1">Scroll Down</p>
       <figure><i class="fa-solid fa-chevron-down text-green fs-s"></i></figure>
     </div>
-    <div class="g_line"></div>
+    <!-- <div class="g_line"></div> -->
   </header>
 
   <main>
@@ -170,9 +170,9 @@
 
     </div>
 
-    <div class="  ">
+    <div class="imgstyle text-center p-2">
       <h5 class="text-green text-uppercase">Recent Works</h5>
-      <h1 class="fs-2 text-center">We love what we do, check out some of our latest works</h1>
+      <h1 class="fs-2 text-center text-white">We love what we do, check out some of our latest works</h1>
       <div class="image-container pt-1">
         <img src="./images/background/33fddda4-b710-4d56-aee3-8297945c04e3.jpg" class="img" alt="" />
         <div class="overlay">
@@ -247,22 +247,22 @@
     </div>
 
     <div class="clients">
-      <p class="text-green text-uppercase fw-bold text-center">Our Clients</p>
+      <p class="text-green text-uppercase semi-bold text-center">Our Clients</p>
 
       <div class="overlay-3"></div>
       <h1 class="text-center p-1">Glint has been honored to partner up with these clients</h1>
 
       <!-- ✅ Replaced Owl Carousel with Swiper structure -->
-      <div class="swiper">
+      <div class="swiper clientSwiper">
         <div class="swiper-wrapper">
-          <div class="swiper-slide"><i class="fa-brands fa-apple"></i></div>
-          <div class="swiper-slide"><i class="fa-solid fa-atom"></i></div>
-          <div class="swiper-slide"><i class="fa-brands fa-blackberry"></i></div>
-          <div class="swiper-slide"><i class="fa-brands fa-dropbox"></i></div>
-          <div class="swiper-slide"><i class="fa-solid fa-users-viewfinder"></i></div>
-          <div class="swiper-slide"><i class="fa-brands fa-firefox"></i></div>
-          <div class="swiper-slide"><i class="fa-brands fa-joomla"></i></div>
-          <div class="swiper-slide"><i class="fa-brands fa-magento"></i></div>
+          <div class="swiper-slide"><i class="fa-brands logos fa-apple"></i></div>
+          <div class="swiper-slide"><i class="fa-solid logos fa-atom"></i></div>
+          <div class="swiper-slide"><i class="fa-brands logos fa-blackberry"></i></div>
+          <div class="swiper-slide"><i class="fa-brands logos fa-dropbox"></i></div>
+          <div class="swiper-slide"><i class="fa-solid logos fa-users-viewfinder"></i></div>
+          <div class="swiper-slide"><i class="fa-brands logos fa-firefox"></i></div>
+          <div class="swiper-slide"><i class="fa-brands logos fa-joomla"></i></div>
+          <div class="swiper-slide"><i class="fa-brands logos fa-magento"></i></div>
         </div>
       </div>
       <div class="swiper mySwiper">
@@ -358,7 +358,7 @@
 
   <!-- ✅ Swiper Initialization -->
   <script>
-    const swiper = new Swiper(".mySwiper", {
+    const swiper = new Swiper(".clientSwiper", {
       slidesPerView: 4,
       spaceBetween: 30,
       loop: true,
